@@ -26,8 +26,8 @@
 </head>
 
 <body>
-  <main class="max-w-screen-2xl mx-auto px-16 ">
-    <header class="flex pt-10 mb-20">
+  <main class="max-w-screen-2xl mx-auto px-16">
+    <header class="flex flex-col md:flex-row pt-10 mb-20">
       <!-- text content -->
       <div>
         <h1 class="text-[80px] text-[#1C1C1C] font-extrabold">It's good <br>
@@ -53,7 +53,7 @@
           <img class="w-full" src="images/banner.png" alt="">
         </div>
         <div
-          class="absolute flex items-center space-x-2 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-20 md:top-80 md:left-32 lg:left-28">
+          class="absolute flex items-center space-x-2 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-24 md:top-80 lg:top-96 md:left-32 lg:left-28">
           <div><i class="fa-solid fa-star text-2xl text-[#FFC850]"></i></div>
           <div>
             <h3 class="text-3xl font-extrabold">5.00</h3>
@@ -74,7 +74,7 @@
             don't look even slightly believable. </p>
         </div>
         <!-- Grid card -->
-        <div class="grid grid-cols-4 gap-6 text-center mt-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center mt-12">
           <div class="rounded-xl overflow-hidden bg-gradient-to-b from-[#F4F4F4] to-white">
             <img class="mx-auto pt-7" src="images/tea-1.png" alt="">
             <div class="p-8">
@@ -161,7 +161,8 @@
           <!-- Image cards -->
           <div class="relative py-24">
             <!-- Top card -->
-            <div class="relative left-36 bottom-7 px-12 py-10 h-56 w-full md:w-3/4 bg-white opacity-40 text-black rounded-lg">
+            <div
+              class="relative md:left-36 bottom-7 px-12 py-10 h-68 md:h-56 w-full md:w-3/4 bg-white opacity-40 text-black rounded-lg">
               <p class="mb-10 text-[#777777]">We are providing the best and suitable home insurance services for the
                 people who are interested to treatment</p>
               <h3 class="font-bold">Ilham Yuda</h3>
@@ -171,7 +172,7 @@
               </div>
             </div>
             <!-- Middle card -->
-            <div class="absolute top-52 z-10 px-12 py-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg">
+            <div class="absolute top-52 z-10 px-12 py-10 h-68 md:h-56 w-full md:w-3/4 bg-white text-black rounded-lg">
               <p class="mb-10 text-[#777777]">We are providing the best and suitable home insurance services for the
                 people who are interested to treatment</p>
               <h3 class="font-bold">Ilham Yuda</h3>
@@ -181,7 +182,8 @@
               </div>
             </div>
             <!-- Bottom card -->
-            <div class="relative left-36 top-7 px-12 py-10 h-56 w-full md:w-3/4 bg-white opacity-40 text-black rounded-lg">
+            <div
+              class="relative md:left-36 top-7 px-12 py-10 h-68 md:h-56 w-full md:w-3/4 bg-white opacity-40 text-black rounded-lg">
               <p class="mb-10 text-[#777777]">We are providing the best and suitable home insurance services for the
                 people who are interested to treatment</p>
               <h3 class="font-bold">Ilham Yuda</h3>
@@ -194,10 +196,90 @@
         </div>
       </section>
     </main>
-    <footer>
-
-    </footer>
   </main>
+  <footer class="bg-gradient-to-r from-[#eacfbd] to-[#edbebe] py-10 px-4 md:px-16 lg:px-56 lg:py-32">
+    <div class="w-9/12 mx-auto">
+      <!-- Logo -->
+      <div class="mb-8 flex justify-between">
+        <img src="images/cup.png" alt="">
+        <div class="flex items-center">
+          <h4 class="text-sm font-medium text-[#494949] mr-10">Ready to get strated?</h4>
+          <button
+            class="px-6 py-4 rounded-lg text-xl text-[#FFFFFF] font-bold bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Get
+            Started</button>
+        </div>
+      </div>
+      <!-- Links -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Column-1 -->
+        <div>
+          <h3 class="text-xl text-[#1C1C1C] font-semibold mb-6">Quick Links</h3>
+          <ul class="space-y-4">
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Home</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">About Us</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Insurance</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Column-2 -->
+        <div>
+          <h3 class="text-xl text-[#1C1C1C] font-semibold mb-6">Our Service</h3>
+          <ul class="space-y-4">
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Life Insurance</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Car Insurance</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Health Insurance</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">House Insurance</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Column-3 -->
+        <div>
+          <h3 class="text-xl text-[#1C1C1C] font-semibold mb-6">Help</h3>
+          <ul class="space-y-4">
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">FAQs</a>
+            </li>
+            <li>
+              <a class="text-[#494949] hover:text-orange-600" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Column-4 -->
+        <div>
+          <h3 class="text-2xl text-[#1C1C1C] font-semibold mb-6">Subscribe to our newsletter</h3>
+          <div class="flex flex-col space-y-10">
+            <div>
+              <input class="text-[14px] text-[#494949] bg-transparent border-b-2 border-[#494949] pt-2 pb-6 w-4/6"
+                type="text" placeholder="Email address">
+              <i
+                class="fa-solid fa-chevron-right w-8 h-8 rounded-full bg-gradient-to-r from-[#FF8938] to-[#FF0000] inline-flex text-white justify-center items-center">
+              </i>
+              <div class="flex justify-between w-2/5 mb-2 mt-8">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
